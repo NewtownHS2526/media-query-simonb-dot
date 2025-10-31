@@ -31,3 +31,21 @@ body {
   }
   
   /* Insert @Media queries here! */
+@media (min-width: 600px){
+    .webpage{
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+    .meal-card{
+        max-width:45%;
+        margin:10px;
+    }
+}
+@media (min-width: 1200px){
+    justify-content:space-between;
+}
+.meal-card{
+    max-width:30%
+}
+}
