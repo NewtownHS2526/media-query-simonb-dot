@@ -26,7 +26,8 @@ body {
       width: 100%;
       opacity: 1;
       box-shadow: 1px 1px 15px black;
-  } .meal-card:hover {
+  } 
+  .meal-card:hover {
       opacity: 0.6;
   }
   
@@ -43,9 +44,10 @@ body {
     }
 }
 @media (min-width: 1200px){
-    justify-content:space-between;
+    .main {
+        justify-content: space-around;
+    }
 }
 .meal-card{
     max-width:30%
-}
 }
